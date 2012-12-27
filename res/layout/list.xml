@@ -119,7 +119,25 @@
 	android:id="@+id/horizontalLine"
 	android:layout_width="fill_parent"
 	android:layout_height="2dip"
-	android:background="#A07070"
-	/> 
-<ListView android:id="@+id/ListView01" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+	android:background="#A07070">
+	<TabHost
+		android:id="@android:id/tabhost_nets"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:padding="0dp">
+			<TabWidget
+				android:id="@android:id/tabs_nets"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content" />
+			<FrameLayout
+				android:id="@android:id/tabcontent_nets"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:padding="0dp" />
+		</LinearLayout>
+	</TabHost>
 </LinearLayout>
