@@ -443,7 +443,7 @@ public final class FileUploaderTask extends AbstractBackgroundTask {
         try {
           charBuffer.append( network.getBssid() );
           charBuffer.append( COMMA );
-          // ssid = "ronan stephens’s iMac";
+          // ssid = "ronan stephens's iMac";
           charBuffer.append( ssid );
           charBuffer.append( COMMA );
           charBuffer.append( network.getCapabilities() );

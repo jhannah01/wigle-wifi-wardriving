@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class OverviewFragment extends Fragment {
+public class ListViewFragment extends Fragment {
     class IncomingHandler extends Handler {
         @Override
         public void handleMessage(final Message msg) {
@@ -20,6 +20,6 @@ public class OverviewFragment extends Fragment {
         }
     }
 
-    private static final String TAG = "OverviewFragment";
+    private static final String TAG = "ListViewFragment";
 
 }

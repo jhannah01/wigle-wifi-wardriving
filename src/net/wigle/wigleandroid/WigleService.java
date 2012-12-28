@@ -182,7 +182,7 @@ public final class WigleService extends Service {
     }
 
     // Fall back on the old API.
-    setForeground(true);
+    //setForeground(true);
     notificationManager.notify(id, notification);
 }
 
@@ -209,7 +209,7 @@ public final class WigleService extends Service {
     // Fall back on the old API.  Note to cancel BEFORE changing the
     // foreground state, since we could be killed at that point.
     notificationManager.cancel(id);
-    setForeground(false);
+    //setForeground(false);
   }
   
 }

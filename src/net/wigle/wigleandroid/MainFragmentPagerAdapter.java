@@ -1,4 +1,4 @@
-package net.wigle.wigleandroid
+package net.wigle.wigleandroid;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
