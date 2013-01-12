@@ -598,7 +598,7 @@ public final class ListActivity extends Activity implements FileUploaderListener
       item = menu.add(0, MENU_SETTINGS, 0, getString(R.string.menu_settings));
       item.setIcon( android.R.drawable.ic_menu_preferences );
         
-      return true;
+      return super.onCreateOptionsMenu(menu);
     }
 
     /* Handles item selections */
